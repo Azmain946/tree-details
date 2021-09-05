@@ -9,7 +9,10 @@ on cencus.spc_latin = species.species_scientific_name
 group by environmental_tolerances, tree_size
 order by tree_size;
 
-SELECT max(spc_latin) FROM `bigquery-public-data.new_york_trees.tree_census_2015`;
+SELECT (select Concat('New York 2015 -',max(spc_latin)) FROM `bigquery-public-data.new_york_trees.tree_census_2015`),
+(select Concat('New York 2005 -',max(spc_latin)) FROM `bigquery-public-data.new_york_trees.tree_census_2005`),
+(select Concat('New York 1995 -',max(spc_latin)) FROM `bigquery-public-data.new_york_trees.tree_census_1995`),
+(select Concat('San Francisco -',max(species)) FROM `bigquery-public-data.san_francisco_trees.street_trees`);
 
 SELECT extract(month from plant_date) as Year, count(*) as Planted_Tree FROM `bigquery-public-data.san_francisco.street_trees` 
 group by year
