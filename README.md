@@ -6,4 +6,5 @@ This analyze is based on New York &amp; San Francisco's trees.
 *  In last three decades, most planted tree is **Japanese zelkova(***Zelkova serrata***)** in New York, where in San Francisco, it is **Hybrid Monkey Hand Tree (***x Chiranthofremontia lenzii***)**
 *  Maximum trees are planted between **1998 and 2002** in San Francisco. **Winter** season is the best time to plant trees.
 *  If we come to comparison, in New York there are **873** trees per square kilometer where in San Francisco, it is **1610**.
-                                                                                                  ****Data Source: BigQuery Public Data***
+
+***Data Source: BigQuery Public Data***
