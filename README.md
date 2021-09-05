@@ -7,4 +7,4 @@ This analyze is based on New York &amp; San Francisco's trees.
 *  Maximum trees are planted between **1998 and 2002** in San Francisco. **Winter** season is the best time to plant trees.
 *  If we come to comparison, in New York there are **873** trees per square kilometer where in San Francisco, it is **1610**.
 
-                                                                                                    ***Data Source: BigQuery Public Data***
+                                                                                   ***Data Source: BigQuery Public Data***
